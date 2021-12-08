@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Galerie</title>
+    </head>
+    <body>
+        <% for(let i = 0; i < photos.length; i++){ %>
+        <%= photos[i].name %> <br>
+        <%= photos[i].descript %> <br>
+        <img src="<%=photos[i].imgHERE%>" height="200px"> <br>
+        <% } %>
+    </body>
+</html>
